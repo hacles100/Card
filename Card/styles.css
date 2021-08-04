@@ -1,0 +1,107 @@
+body {
+
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    height: 100vh;
+}
+
+.main {
+
+    height: 100%;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+
+    height: 32rem;
+    width: 15rem;
+    background-color: white;
+    border-radius: 10px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    transition: 0.5s;
+    transform: translateY(0);
+    
+}
+
+
+.card-img {
+
+
+    width: 100%;
+    border-radius: 4px;
+    cursor: pointer;
+   
+
+}
+
+.card-name {
+
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: rgb(51, 50, 50);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    cursor: text;
+}
+
+.price {
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.price-value {
+
+    font-size: 1rem;
+    color: #333;
+}
+
+.price-value-old {
+
+    color: rgb(174, 174, 174);
+    text-decoration: line-through;
+    margin-right: 0.8rem;
+    font-size: 0.9rem;
+    
+}
+
+.card-buy {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 1rem;
+    background-color: royalblue;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    border-radius: 101px;
+    width: 100%;
+
+}
+
+
+.card-buy:hover {
+
+    background-color: blueviolet;
+
+}
+
+
+
+.card:hover {
+
+    transform: translateY(-10px);
+
+}
